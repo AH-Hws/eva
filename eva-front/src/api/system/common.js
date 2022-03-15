@@ -5,6 +5,10 @@ export function getCaptcha () {
   return request.get('/common/captcha')
 }
 
+/**
+ * test
+ * @param data
+ */
 // 根据密码登录
 export function loginByPassword (data) {
   return request.post('/system/login', data)
